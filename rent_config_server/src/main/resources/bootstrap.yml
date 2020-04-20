@@ -5,6 +5,6 @@ spring:
     config:
       server:
         git:
-          uri:
+          uri: https://github.com/Dywei0620/RentSystemConfig.git
 server:
   port: 8181

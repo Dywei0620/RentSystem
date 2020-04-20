@@ -11,6 +11,34 @@
     <modules>
         <module>rent_config_server</module>
         <module>rent_eureka</module>
+        <module>rent_pojo</module>
+        <module>rent_item_byhot</module>
+        <module>rent_eureka</module>
+        <module>rent_commons</module>
+        <module>rent_pojo</module>
+        <module>rent_banner_selectAll</module>
+        <module>rent_banner_show</module>
+        <module>rent_gateway</module>
+        <module>rent_item_byhot</module>
+        <module>rent_item_hotproduct</module>
+        <module>rent_item_byrecommen</module>
+        <module>rent_item_recommendation</module>
+        <module>rent_house_es</module>
+        <module>rent_house_search</module>
+        <module>rent_house_byid</module>
+        <module>rent_house_details</module>
+        <module>rent_comment_byhid</module>
+        <module>rent_comment_show</module>
+        <module>rent_house_buytime</module>
+        <module>rent_validatecode_insert</module>
+        <module>rent_validatecode_sendyzm</module>
+        <module>rent_user_selectbyuser</module>
+        <module>rent_user_login</module>
+        <module>rent_tx_manager</module>
+        <module>rent_house_buyaction</module>
+        <module>rent_rabbitmq_receive</module>
+        <module>rent_order_show</module>
+        <module>rent_order_feelback</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -90,10 +118,11 @@
                 <artifactId>spring-cloud-starter-gateway</artifactId>
                 <version>${gateway.version}</version>
             </dependency>
+            <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-mongodb -->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-data-mongodb</artifactId>
-                <version>${mongodb.version}</version>
+                <version>2.2.2.RELEASE</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
