@@ -47,7 +47,7 @@
     </parent>
 
     <properties>
-        <springmvc.version>2.2.2.RELEASE</springmvc.version>
+        <springmvc.version>2.5.12</springmvc.version>
         <eurekaserver.version>2.2.1.RELEASE</eurekaserver.version>
         <eurekaclient.version>2.2.1.RELEASE</eurekaclient.version>
         <openfeign.version>2.2.1.RELEASE</openfeign.version>
