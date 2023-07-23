@@ -52,7 +52,7 @@
         <eurekaclient.version>2.2.1.RELEASE</eurekaclient.version>
         <openfeign.version>2.2.1.RELEASE</openfeign.version>
         <hystrix.version>2.2.1.RELEASE</hystrix.version>
-        <configserver.version>2.2.1.RELEASE</configserver.version>
+        <configserver.version>2.2.4.RELEASE</configserver.version>
         <configclient.version>2.2.1.RELEASE</configclient.version>
         <gateway.version>2.2.1.RELEASE</gateway.version>
         <mongodb.version>2.2.2.RELEASE</mongodb.version>
